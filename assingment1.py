@@ -62,3 +62,15 @@ if st.session_state.started:
         st.link_button("Tap here to visit the BMW website 🌐", "https://www.bmw.in/en/index.html")
 else:
     st.write("👆 Press the button above to start your BMW journey!")
+
+# About the Creator section
+st.subheader("About the Creator")
+st.write("""
+**Arin Saxena** – a passionate Data Science Engineer from Bhopal, skilled in building interactive apps and exploring modern technologies.  
+📞 8450861638  
+✉️ arinsaxena777@gmail.com  
+🏫 Oriental College of Technology, Bhopal
+""")
+# Footer section
+st.markdown("---")
+st.write("© 2025 Arin Saxena. All rights reserved. Made with ❤️ in Bhopal.")
